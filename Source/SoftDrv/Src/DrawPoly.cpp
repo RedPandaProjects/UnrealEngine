@@ -687,7 +687,7 @@ static void PentiumPolyC32Modulated()
   MMX-specific triangle-only render functions
 --------------------------------------------*/
 
-inline void USoftwareRenderDevice::InnerGouraudMMX32(DWORD PolyFlags, INT MinY, INT MaxY, FSceneNode* Frame,FMipmap* Mip,FSpanBuffer* SpanBuffer)
+ void USoftwareRenderDevice::InnerGouraudMMX32(DWORD PolyFlags, INT MinY, INT MaxY, FSceneNode* Frame,FMipmap* Mip,FSpanBuffer* SpanBuffer)
 {
 
 #if ASM
@@ -1442,7 +1442,7 @@ inline void USoftwareRenderDevice::InnerGouraudMMX32(DWORD PolyFlags, INT MinY, 
 
 
 
-inline void USoftwareRenderDevice::InnerGouraudMMX15(DWORD PolyFlags, INT MinY, INT MaxY, FSceneNode* Frame,FMipmap* Mip,FSpanBuffer* SpanBuffer)
+ void USoftwareRenderDevice::InnerGouraudMMX15(DWORD PolyFlags, INT MinY, INT MaxY, FSceneNode* Frame,FMipmap* Mip,FSpanBuffer* SpanBuffer)
 {
 	static  BYTE*	TexBase;
 	static  FMMX*	PalBase;
@@ -2390,7 +2390,7 @@ inline void USoftwareRenderDevice::InnerGouraudMMX15(DWORD PolyFlags, INT MinY, 
 
 
 
-inline void USoftwareRenderDevice::InnerGouraudMMX16(DWORD PolyFlags, INT MinY, INT MaxY, FSceneNode* Frame,FMipmap* Mip,FSpanBuffer* SpanBuffer)
+ void USoftwareRenderDevice::InnerGouraudMMX16(DWORD PolyFlags, INT MinY, INT MaxY, FSceneNode* Frame,FMipmap* Mip,FSpanBuffer* SpanBuffer)
 {
 	static  BYTE*	TexBase;
 	static  FMMX*	PalBase;
@@ -3368,7 +3368,7 @@ static FLOAT Magic14 = (3 << (22-13));
 	MMXRegister.DL =  (( *(DWORD*)&TempB ) & 0xFFFF) + (( *(DWORD*)&TempG ) << 16);\
 }
 
-// Fully MACROed version is slightly faster than simple inline function.
+// Fully MACROed version is slightly faster than simple  function.
 
 void USoftwareRenderDevice::MMXFlashTriangle
 (										
