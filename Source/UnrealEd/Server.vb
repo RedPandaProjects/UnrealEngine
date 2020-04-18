@@ -5,7 +5,7 @@
     Private Declare Sub EdSetProp Lib "Editor.dll" Alias "_EdSetProp@12" (ByVal Topic As String, ByVal Item As String, ByVal Value As String)
     Private Declare Function EdGetProp Lib "Editor.dll" Alias "_EdGetProp@8" (ByVal Topic As String, ByVal Item As String) As String
 
-    Private hWndEditor As IntPtr;
+    Private hWndEditor As IntPtr
     '
     '
     Public Sub InitServer(hWndMain As IntPtr, hWndCallback As IntPtr, ProgressBarhWnd As IntPtr, ProgressTexthWnd As IntPtr)

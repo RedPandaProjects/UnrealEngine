@@ -3,3 +3,4 @@ Lib
 Bin
 *.log
 Source/.vs
+Source/UnrealED/obj
