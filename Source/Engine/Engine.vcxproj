@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Inc\AActor.h" />
+    <ClInclude Include="Inc\ABrush.h" />
+    <ClInclude Include="Inc\ACamera.h" />
+    <ClInclude Include="Inc\AMover.h" />
+    <ClInclude Include="Inc\APawn.h" />
+    <ClInclude Include="Inc\APlayerPawn.h" />
+    <ClInclude Include="Inc\AZoneInfo.h" />
+    <ClInclude Include="Inc\Engine.h" />
+    <ClInclude Include="Inc\EngineClasses.h" />
+    <ClInclude Include="Inc\UnActor.h" />
+    <ClInclude Include="Inc\UnAudio.h" />
+    <ClInclude Include="Inc\UnBunch.h" />
+    <ClInclude Include="Inc\UnCamera.h" />
+    <ClInclude Include="Inc\UnChan.h" />
+    <ClInclude Include="Inc\UnConn.h" />
+    <ClInclude Include="Inc\UnDynBsp.h" />
+    <ClInclude Include="Inc\UnEngine.h" />
+    <ClInclude Include="Inc\UnGame.h" />
+    <ClInclude Include="Inc\UnIn.h" />
+    <ClInclude Include="Inc\UnLevel.h" />
+    <ClInclude Include="Inc\UnMath.h" />
+    <ClInclude Include="Inc\UnMesh.h" />
+    <ClInclude Include="Inc\UnModel.h" />
+    <ClInclude Include="Inc\UnNet.h" />
+    <ClInclude Include="Inc\UnNetDrv.h" />
+    <ClInclude Include="Inc\UnObj.h" />
+    <ClInclude Include="Inc\UnParams.h" />
+    <ClInclude Include="Inc\UnPlayer.h" />
+    <ClInclude Include="Inc\UnPrim.h" />
+    <ClInclude Include="Inc\UnReach.h" />
+    <ClInclude Include="Inc\UnRender.h" />
+    <ClInclude Include="Inc\UnRenDev.h" />
+    <ClInclude Include="Inc\UnTex.h" />
+    <ClInclude Include="Inc\UnURL.h" />
+    <ClInclude Include="Src\Amd3d.h" />
+    <ClInclude Include="Src\EnginePrivate.h" />
+    <ClInclude Include="Src\UnCon.h" />
+    <ClInclude Include="Src\UnPath.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Engine.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Src\UnActCol.cpp" />
+    <ClCompile Include="Src\UnActor.cpp" />
+    <ClCompile Include="Src\UnAudio.cpp" />
+    <ClCompile Include="Src\UnBunch.cpp" />
+    <ClCompile Include="Src\UnCamera.cpp" />
+    <ClCompile Include="Src\UnCamMgr.cpp" />
+    <ClCompile Include="Src\UnCanvas.cpp" />
+    <ClCompile Include="Src\UnChan.cpp" />
+    <ClCompile Include="Src\UnCon.cpp" />
+    <ClCompile Include="Src\UnConn.cpp" />
+    <ClCompile Include="Src\UnDynBsp.cpp" />
+    <ClCompile Include="Src\UnEngine.cpp" />
+    <ClCompile Include="Src\UnFont.cpp" />
+    <ClCompile Include="Src\UnFPoly.cpp" />
+    <ClCompile Include="Src\UnGame.cpp" />
+    <ClCompile Include="Src\UnIn.cpp" />
+    <ClCompile Include="Src\UnLevAct.cpp" />
+    <ClCompile Include="Src\UnLevel.cpp" />
+    <ClCompile Include="Src\UnLevTic.cpp" />
+    <ClCompile Include="Src\UnMath.cpp" />
+    <ClCompile Include="Src\UnMesh.cpp" />
+    <ClCompile Include="Src\UnModel.cpp" />
+    <ClCompile Include="Src\UnMover.cpp" />
+    <ClCompile Include="Src\UnParams.cpp" />
+    <ClCompile Include="Src\UnPath.cpp" />
+    <ClCompile Include="Src\UnPawn.cpp" />
+    <ClCompile Include="Src\UnPhysic.cpp" />
+    <ClCompile Include="Src\UnPlayer.cpp" />
+    <ClCompile Include="Src\UnPrim.cpp" />
+    <ClCompile Include="Src\UnReach.cpp" />
+    <ClCompile Include="Src\Unreal.cpp" />
+    <ClCompile Include="Src\UnRoute.cpp" />
+    <ClCompile Include="Src\UnScript.cpp" />
+    <ClCompile Include="Src\UnTex.cpp" />
+    <ClCompile Include="Src\UnTrace.cpp" />
+    <ClCompile Include="Src\UnURL.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.vcxproj">
+      <Project>{baf018ca-1c52-490f-a9af-fdbf485804a4}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Classes\Actor.uc" />
+    <None Include="Classes\AmbientSound.uc" />
+    <None Include="Classes\Ambushpoint.uc" />
+    <None Include="Classes\Ammo.uc" />
+    <None Include="Classes\Bitmap.uc" />
+    <None Include="Classes\BlockAll.uc" />
+    <None Include="Classes\BlockMonsters.uc" />
+    <None Include="Classes\BlockPlayer.uc" />
+    <None Include="Classes\Brush.uc" />
+    <None Include="Classes\ButtonMarker.uc" />
+    <None Include="Classes\Camera.uc" />
+    <None Include="Classes\Canvas.uc" />
+    <None Include="Classes\Carcass.uc" />
+    <None Include="Classes\Console.uc" />
+    <None Include="Classes\Counter.uc" />
+    <None Include="Classes\DamageType.uc" />
+    <None Include="Classes\Decoration.uc" />
+    <None Include="Classes\Dispatcher.uc" />
+    <None Include="Classes\Effects.uc" />
+    <None Include="Classes\Engine.uc" />
+    <None Include="Classes\Fragment.uc" />
+    <None Include="Classes\GameInfo.uc" />
+    <None Include="Classes\HomeBase.uc" />
+    <None Include="Classes\HUD.uc" />
+    <None Include="Classes\Info.uc" />
+    <None Include="Classes\InterpolationPoint.uc" />
+    <None Include="Classes\Inventory.uc" />
+    <None Include="Classes\InventorySpot.uc" />
+    <None Include="Classes\Keypoint.uc" />
+    <None Include="Classes\LevelInfo.uc" />
+    <None Include="Classes\LiftCenter.uc" />
+    <None Include="Classes\LiftExit.uc" />
+    <None Include="Classes\Light.uc" />
+    <None Include="Classes\MapList.uc" />
+    <None Include="Classes\Menu.uc" />
+    <None Include="Classes\Mover.uc" />
+    <None Include="Classes\MusicEvent.uc" />
+    <None Include="Classes\NavigationPoint.uc" />
+    <None Include="Classes\Palette.uc" />
+    <None Include="Classes\PathNode.uc" />
+    <None Include="Classes\PatrolPoint.uc" />
+    <None Include="Classes\Pawn.uc" />
+    <None Include="Classes\Pickup.uc" />
+    <None Include="Classes\Player.uc" />
+    <None Include="Classes\PlayerPawn.uc" />
+    <None Include="Classes\PlayerStart.uc" />
+    <None Include="Classes\Projectile.uc" />
+    <None Include="Classes\RoundRobin.uc" />
+    <None Include="Classes\SavedMove.uc" />
+    <None Include="Classes\ScaledSprite.uc" />
+    <None Include="Classes\ScoreBoard.uc" />
+    <None Include="Classes\Scout.uc" />
+    <None Include="Classes\SkyZoneInfo.uc" />
+    <None Include="Classes\SpecialEvent.uc" />
+    <None Include="Classes\Spectator.uc" />
+    <None Include="Classes\Spotlight.uc" />
+    <None Include="Classes\Teleporter.uc" />
+    <None Include="Classes\TestInfo.uc" />
+    <None Include="Classes\Texture.uc" />
+    <None Include="Classes\Trigger.uc" />
+    <None Include="Classes\TriggerLight.uc" />
+    <None Include="Classes\TriggerMarker.uc" />
+    <None Include="Classes\Triggers.uc" />
+    <None Include="Classes\WarpZoneInfo.uc" />
+    <None Include="Classes\WarpZoneMarker.uc" />
+    <None Include="Classes\WayBeacon.uc" />
+    <None Include="Classes\Weapon.uc" />
+    <None Include="Classes\ZoneInfo.uc" />
+    <None Include="Classes\ZoneTrigger.uc" />
+    <None Include="Textures\Ambient.pcx" />
+    <None Include="Textures\Ammo.pcx" />
+    <None Include="Textures\Backdrop.pcx" />
+    <None Include="Textures\Basic.pcx" />
+    <None Include="Textures\BigFont.pcx" />
+    <None Include="Textures\Border.pcx" />
+    <None Include="Textures\Cloudcast.pcx" />
+    <None Include="Textures\Console.pcx" />
+    <None Include="Textures\Corpse.pcx" />
+    <None Include="Textures\Counter.pcx" />
+    <None Include="Textures\DefaultTexture.pcx" />
+    <None Include="Textures\Dispatch.pcx" />
+    <None Include="Textures\Flag1.pcx" />
+    <None Include="Textures\IntrpPnt.pcx" />
+    <None Include="Textures\Inventry.pcx" />
+    <None Include="Textures\KeyPoint.pcx" />
+    <None Include="Textures\LargeFont.pcx" />
+    <None Include="Textures\MedFont.pcx" />
+    <None Include="Textures\PathNode.pcx" />
+    <None Include="Textures\Pawn.pcx" />
+    <None Include="Textures\SwchLite.pcx" />
+    <None Include="Textures\S_Actor.pcx" />
+    <None Include="Textures\S_Camera.pcx" />
+    <None Include="Textures\S_Light.pcx" />
+    <None Include="Textures\S_Pickup.pcx" />
+    <None Include="Textures\S_Player.pcx" />
+    <None Include="Textures\Teleport.pcx" />
+    <None Include="Textures\Trigger.pcx" />
+    <None Include="Textures\TrigSpcl.pcx" />
+    <None Include="Textures\Weapon.pcx" />
+    <None Include="Textures\ZoneInfo.pcx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\SmallFont.bmp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{D02C2D00-855E-4629-8EC0-31D40C212EC9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Engine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Default.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Default.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Default.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Default.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>WIN32;_DEBUG;ENGINE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <PrecompiledHeaderFile>EnginePrivate.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;ENGINE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <PrecompiledHeaderFile>EnginePrivate.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PreprocessorDefinitions>WIN32;NDEBUG;ENGINE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <PrecompiledHeaderFile>EnginePrivate.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PreprocessorDefinitions>NDEBUG;ENGINE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <PrecompiledHeaderFile>EnginePrivate.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

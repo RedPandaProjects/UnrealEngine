@@ -1,0 +1,50 @@
+[Public]
+Object=(Name=Engine.Console,Class=Class,MetaClass=Engine.Console)
+Preferences=(Caption="Advanced",Parent="Advanced Options")
+Preferences=(Caption="Game Engine Settings",Parent="Advanced",Class=Engine.GameEngine,Category=Settings,Immediate=True)
+Preferences=(Caption="Key Aliases",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=Aliases)
+Preferences=(Caption="Raw Key Bindings",Parent="Advanced",Class=Engine.Input,Immediate=True,Category=RawKeys)
+Preferences=(Caption="Drivers",Parent="Advanced Options",Class=Engine.Engine,Immediate=False,Category=Drivers)
+
+[Errors]
+NetOpen=Error opening file
+NetWrite=Error writing to file
+NetRefused=Server refused to send '%s'
+NetClose=Error closing file
+NetSize=File size mismatch
+NetMove=Error moving file
+NetInvalid=Received invalid file request
+NoDownload=Package '%s' is not downloadable
+DownloadFailed=Downloading package '%s' failed: %s
+RequestDenied=Server requested file from pending level: Denied
+ConnectionFailed=Connection failed
+ChAllocate=Couldn't allocate channel
+NetAlready=Already networking
+NetListen=Listen failed: No linker context available
+LoadEntry=Can't load Entry: %s
+InvalidUrl=Invalid URL: %s
+FailedBrowse=Failed to enter %s: %s
+Listen=Listen failed: %s
+AbortToEntry=Failed; returning to Entry
+ServerOpen=Servers can't open network URLs
+ServerListen=Dedicated server can't listen: %s
+Pending=Pending connect to '%s' failed; %s
+
+[Progress]
+NetReceiving=Receiving '%s': %i/%i
+NetReceiveOk=Successfully received '%s'
+NetSend=Sending '%s'
+NetSending=Sending '%s': %i/%i
+Connecting=Connecting...
+Listening=Listening for clients...
+Loading=Loading
+Saving=Saving
+Paused=Paused by %s
+
+[Console]
+ClassCaption="Standard Unreal Console"
+
+[General]
+Upgrade=To enter this server, you need the latest free update to Unreal available from Epic's Web site:
+UpgradeURL=http://www.unreal.com/upgrade
+UpgradeQuestion=Do you want to launch your web browser and go to the upgrade page now?

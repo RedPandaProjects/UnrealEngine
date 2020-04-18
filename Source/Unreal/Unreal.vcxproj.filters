@@ -1,0 +1,6301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{8eebb935-3d81-4cde-b8c6-31f45a063a13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{7b8f0b7f-f912-42bc-9a03-c9c972b61be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sounds">
+      <UniqueIdentifier>{1e13df8a-ddc4-4eb9-81d0-fcf72bfda268}</UniqueIdentifier>
+      <Extensions>wav</Extensions>
+    </Filter>
+    <Filter Include="Textures">
+      <UniqueIdentifier>{f0d5d536-ffca-426f-b9d4-71bf5c1f7350}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Textures\Hud">
+      <UniqueIdentifier>{71f87ad1-0104-49f5-b4f8-706b728e0d43}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Classes\Amplifier.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\AnimSpriteEffect.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Arc.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Arm1.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Armor.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Arrow.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\ArrowSpawner.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\AsbestosSuit.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\ASMD.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\ASMDAmmo.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\AssertMover.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\AttachMover.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\AutoMag.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\BabyCow.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\BabyCowCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\BallExplosion.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Bandages.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Barrel.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\BarrelSludge.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Behemoth.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\BigBiogel.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\BigBlackSmoke.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\BigRock.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Biodrop.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Biogel.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Bird1.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\BiterFish.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\BiterFishSchool.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\BlackSmoke.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Bloblet.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Blood2.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\BloodBurst.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\BloodPool.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\BloodPuff.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\BloodSpurt.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\BloodTrail.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\BlueBook.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Book.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\BotInfo.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Bots.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Boulder.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Boulder1.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\BreakingGlass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Brute.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\BruteCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\BruteProjectile.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Bubble.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Bubble1.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\BubbleGenerator.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\BulletHit.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Burned.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Candle.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Candle2.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Cannon.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\CannonBolt.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\CaveManta.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Chair.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\ChargeLight.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Chest.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Chip.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Chunk.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Chunk1.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Chunk2.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Chunk3.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Chunk4.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Clip.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\CloudZone.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\CodeMaster.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\CodeTrigger.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\CoopGame.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Corroded.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Cow.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\CowCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\CreatureCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\CreatureChunks.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\CreatureFactory.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\CrucifiedNali.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Cryopod.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\DAmmo2.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\DAmmo3.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\DAmmo4.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\DAmmo5.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Dampener.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\DarkMatch.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\DeadBodySwarm.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\DeadChairMale.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\DeadMales.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\DeathMatchGame.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Decapitated.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\DefaultAmmo.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\DefaultBurst.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\DefaultBurstAlt.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Devilfish.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\DevilfishCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\DExplosion.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Dice.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\DispersionAmmo.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\DispersionPistol.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\DistanceLightning.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\DKmaplist.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\DMmaplist.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Drip.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\DripGenerator.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Drowned.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\DynamicAmbientSound.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Earthquake.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\EffectLight.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Eightball.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Electricity.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\ElevatorMover.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\ElevatorTrigger.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\EliteKrallBolt.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\EndGame.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\EndgameHud.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\EnergyBolt.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\EnergyBurst.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\EntryGameInfo.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\EscapePod.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\ExplodingWall.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\ExplosionChain.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Fan2.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\FatnessTrigger.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\FatRing.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\FavoritesTeleporter.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\FearSpot.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Fell.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Female.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Female2Body.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\FemaleBody.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\FemaleBot.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\FemaleHead.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\FemaleOne.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\FemaleOneBot.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\FemaleOneCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\FemaleTorso.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\FemaleTwo.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\FemaleTwoBot.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\FemaleTwoCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Flag1.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Flag2.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Flag3.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Flagb.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\FlakBox.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\FlakCannon.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\FlakShell.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\FlakShellAmmo.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Flame.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\FlameBall.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\FlameExplosion.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Flare.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Flashlight.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\FlashLightBeam.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\FlockMasterPawn.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\FlockPawn.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Fly.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\FlyCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\ForceField.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\ForceFieldProj.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Fragment1.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Gasbag.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\GasBagBelch.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\GassiusCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\GESBioRifle.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\GiantGasbag.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\GiantManta.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\GlassFragments.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\GradualMover.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\GreenBlob.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\GreenBloodPuff.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\GreenBook.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\GreenSmokePuff.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Grenade.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\GuardPoint.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Health.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\HeavyWallHitEffect.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\HorseFly.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\HorseFlySwarm.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\HugeCannon.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Human.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\HumanBot.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\HumanCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\IceSkaarj.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\InfoMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\InterpolatingObject.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Intro.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\IntroNullHud.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\IntroShip.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Invisibility.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\JumpBoots.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Jumper.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\KevlarSuit.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\KingOfTheHill.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Knife.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\KraalBolt.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Krall.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\KrallCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\KrallElite.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Lamp1.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Lamp4.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Lantern.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Lantern2.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\LavaZone.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Leg1.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Leg2.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\LeglessKrall.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\LesserBrute.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\LesserBruteCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\LightWallHitEffect.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Liver.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\LoopMover.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Magma.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\MagmaBurst.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\MakeNaliFriendly.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Male.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\MaleBody.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\MaleBodyThree.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\MaleBodyTwo.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\MaleBot.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\MaleHead.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\MaleOne.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\MaleOneBot.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\MaleOneCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\MaleThree.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\MaleThreeBot.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\MaleThreeCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\MaleTwo.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\MaleTwoBot.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\MaleTwoCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Manta.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\MantaCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\MasterChunk.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\MedWoodBox.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\MercCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Mercenary.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\MercenaryElite.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\MercFlare.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\MercRocket.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Minigun.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\MixMover.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\MonkStatue.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Moon.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Moon2.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Moon3.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Nali.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\NaliCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\NaliFruit.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\NaliPriest.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\NaliRabbit.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\NaliStatue.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\NitrogenZone.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\NullAmmo.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\ObjectPath.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\OKMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\OverHeatLight.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Panel.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\ParentBlob.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\ParticleBurst.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\ParticleBurst2.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\PathPoint.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\PawnTeleportEffect.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\PeaceRocket.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\PHeart.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Plant1.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Plant2.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Plant3.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Plant4.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Plant5.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Plant6.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Plant7.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Plasma.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\PlayerChunks.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Pottery0.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Pottery1.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Pottery2.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\PowerShield.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Pupae.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\PupaeCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\PurpleLight.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\QuadShot.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Queen.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\QueenCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\QueenDest.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\QueenProjectile.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\QueenShield.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\QueenTeleportEffect.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\QueenTeleportLight.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\RazorAmmo.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\RazorBlade.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\RazorBladeAlt.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\RazorJack.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\ReSpawn.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Rifle.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\RifleAmmo.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\RifleRound.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\RingExplosion.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\RingExplosion2.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\RingExplosion3.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\RingExplosion4.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\RisingSpriteSmokePuff.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Robot.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Rocket.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\RocketCan.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\RockSlide.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\RotatingMover.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Sconce.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\ScriptedPawn.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SCUBAGear.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SearchLight.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SeaWeed.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Seeds.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SeekingRocket.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Shellbox.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\ShellCase.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Shells.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Shield.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\ShieldBelt.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\ShortSmokeGen.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SightLight.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Sign1.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SilentBallExplosion.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SinglePlayer.Uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Skaarj.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SkaarjAssassin.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SkaarjBerserker.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SkaarjCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SkaarjGunner.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SkaarjInfantry.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SkaarjLord.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SkaarjOfficer.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SkaarjPlayer.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SkaarjPlayerBot.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SkaarjProjectile.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SkaarjScout.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SkaarjSniper.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SkaarjTrooper.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SkaarjWarrior.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SlimeZone.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Slith.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SlithCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SlithProjectile.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Sludge.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SludgeBarrel.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SmallSpark.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SmallSpark2.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SmallSteelBox.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SmallWire.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SmallWoodBox.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SmokeColumn.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SmokeExplo.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SmokeGenerator.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SmokeHose.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SmokeHoseDest.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SmokePuff.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SmokeTrail.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Spark3.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Spark32.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Spark33.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Spark34.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Spark35.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SparkBit.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Sparks.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Spawnpoint.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\spectatorhud.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SpikeExplosion.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Splash.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SpriteBallChild.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SpriteBallExplosion.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SpriteBlueExplo.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SpriteExplosion.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SpriteGreenE.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SpriteLightning.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SpriteOrangeE.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SpriteRedE.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SpriteSmokePuff.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SpriteYellowE.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Squid.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SquidCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SteelBarrel.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SteelBox.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Stinger.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\StingerAmmo.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\StingerProjectile.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\StochasticTrigger.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Stomach.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\StoneTitan.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Suits.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\SuperHealth.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Table.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Tapestry1.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\TarydiumBarrel.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\TarZone.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Tazerexplosion.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\TazerProj.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\TeamGame.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\TeamInfo.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\TeleporterZone.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Tentacle.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\TentacleCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\TentacleProjectile.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Thigh.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\ThingFactory.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\thrownbody.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\ThrowStuff.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\TinyBurst.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Titan.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\TitanCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\ToggleZoneInfo.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\TorchFlame.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\ToxinSuit.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Tracer.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Translator.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\TranslatorEvent.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Transporter.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Tree.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Tree1.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Tree2.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Tree3.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Tree4.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Tree5.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Tree6.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Tree7.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Tree8.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Tree9.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Tree10.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Tree11.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Tree12.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\TriggeredAmbientSound.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\TriggeredDeath.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\TriggerLight.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\TriggerLightRad.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\TrooperCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\TSmoke.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealBotConfigMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealChooseGameMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealDamageType.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealDMGameOptionsMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealFavoritesMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealGameInfo.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealGameMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealGameOptionsMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealHelpMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealHUD.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealIndivBotMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealIPlayer.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealJoinGameMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealKeyboardMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealListenMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealLoadMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealMainMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealMeshMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealMultiPlayerMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealNewGameMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealOptionsMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealPlayerMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealQuitMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealSaveMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealScoreBoard.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealServerMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealSlotMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealSpectator.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealTeamGameOptionsMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealTeamHUD.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealTestInfo.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealVideoMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UnrealWeaponMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\UpgradeMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Urn.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Vase.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\VoiceBox.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\VRikersGame.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\WallFragments.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\WallHitEffect.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Warlord.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\WarlordCarcass.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\WarlordRocket.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\WaterImpact.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\WaterRing.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\WaterZone.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\WeaponLight.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\WeaponPowerUp.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\Wire.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\WoodenBox.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\WoodFragments.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\YellowBook.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\YesNoMenu.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Classes\AlarmPoint.uc">
+      <Filter>Classes</Filter>
+    </None>
+    <None Include="Models\acoust_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\acoust_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\amp.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\amp_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\amp_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ANIV20.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ANIV25.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ANIV28.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ANIV34.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ANIV35.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ANIV36.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ANIV38.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ANIV51.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ANIV52.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ANIV54.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ANIV55.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\armor.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\arrow.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\arrow_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\arrow_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\art1_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\art1_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ash.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\asmd.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\asmd_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\asmd_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\asmdam_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\asmdam_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\asmdammo.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\automag.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\B1EXP_A.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\B1EXP_D.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\band_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\band_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\bandages.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\BARREL.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\barrel_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\barrel_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\basbsuit.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\BELT.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\belt_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\belt_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\bigfl_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\bigfl_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\bigflash.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\bird1.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\bird1_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\bird1_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\Blob1.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\blob2.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\blob3.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\blob4.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\blob5.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\bloblet.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\BLOOD_A.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\BLOOD_D.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\BLOOD2.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\blood2_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\blood2_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\BLOODG.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\BLOODG2.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\BLOODS2.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\BOLT1_A.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\BOLT1_D.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\book_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\book_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\BOOK1.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\BOOK2.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\BOOK3.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\BOOK4.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\BOOT.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\BOOT_A.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\BOOT_D.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\BOX.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\box_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\box_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\bpool.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\bpool_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\bpool_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\brifle.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\brifle_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\brifle_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\Brute_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\brute_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\Brute2C.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\Brute2H.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\brute3.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\bsuit.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\bsuit_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\bsuit_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\btoxsuit.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\BUBBLE1.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\BUBBLE2.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\BUBBLE3.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\bubble4.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\burst.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\BURST_A.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\burst_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\burst4_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\burst4_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\candl2.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\candl2_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\candl2_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\candle.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\candle_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\candle_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\CANNON.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\cannon_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\cannon_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\chair.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\chair_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\chair_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\CHEST.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\chest_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\chest_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\chip.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\chip_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\chip_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\CHUNK1_A.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\CHUNK1_D.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\CHUNK2_A.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\CHUNK2_D.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\CHUNK3_A.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\CHUNK3_D.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\CHUNK4_A.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\CHUNK4_D.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\CLIP.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\COW.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\cow_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\cow_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\cros_s_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\cros_s_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\cros_t_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\cros_t_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\cross_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\cross_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\cross6_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\cross6_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\CRYO.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\cryo_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\cryo_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\d_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\d_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\D0_a00.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\D0_a01.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\D0_a02.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\D0_a03.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\D0_a04.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\D1_a00.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\D1_a01.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\D1_a02.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\D1_a03.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\D1_a04.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\D2_a00.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\D2_a01.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\D2_a02.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\D2_a03.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\D2_a04.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\D3_a00.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\D3_a01.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\D3_a02.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\D3_a03.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\D3_a04.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\D4_a00.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\D4_a01.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\D4_a02.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\D4_a03.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\D4_a04.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\dante.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\DATA20.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\DATA25.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\DATA28.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\DATA34.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\DATA35.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\DATA36.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\DATA38.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\data51.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\DATA52.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\DATA54.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\DATA55.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\dgun.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\dgun_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\dgun_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\dgunlo_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\dgunlo_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\DICE.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\dice_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\dice_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\disp_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\disp_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\dispeffect.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\dpower.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\dpower_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\dpower_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\dr_a03.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\drip_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\drip_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\eightb_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\eightb_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\EIGHTBAL.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ekrall.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ELECTR_A.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ELECTR_D.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\EPICK_A.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\EPICK_D.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\escape.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\escape_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\escape_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\eskaarj.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\EXP001.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\exp1_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\exp1_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\EXP002.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\EXP003.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\EXP004.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\EXP005.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\EXP006.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\EXP007.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\EXP008.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\EXP009.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\EXP010.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\EXP011.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\EXP012.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\EXP013.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\EXP014.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\EXP015.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\EXP016.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\EXP017.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\EXP018.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\EXP019.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\EXP020.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\F1DEAD_A.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\F2DEAD_A.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\F201.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\F202.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\F203.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\F204.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\F205.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\F206.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\F207.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\F208.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\F209.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\FAN2.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\fan2_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\fan2_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\fem2_1.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\fem2_2.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\fem2_3.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\femal2_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\femal2_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\female_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\Female1_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\female2.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\femaleX2.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\FEMALEX4.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\FEMALEX5.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\FEMALEX6.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\firefl_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\firefl_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\firefly.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\FISH_A.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\FISH_D.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\fish1.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\fish1_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\fish1_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\FISH2.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\fish3.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\fish4.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\fish5.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\fish6.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\flag.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\flag_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\flag_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\FLAG1.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\flag1_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\flag1_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\FLAG2.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\flag2_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\flag2_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\FLAG3.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\flag3_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\flag3_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\flagb.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\flak.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\flak_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\flak_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\flak3_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\flak3_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\flakb_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\flakb_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\FLAKPI_A.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\FLAKPI_D.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\FLAKSH_A.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\FLAKSH_D.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\FLAKSHEL.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\flamba_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\flamba_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\FLAMBAL.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\flame_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\flame_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\FLARE.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\flare_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\flare_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\FLASHL.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\flashl_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\flashl_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\FLY.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\fly_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\fly_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\force2.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\force2_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\force2_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\forcef_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\forcef_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\frag1_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\frag1_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\frag2_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\frag2_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\frag3_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\frag3_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\frag4_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\frag4_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\frag5_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\frag5_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\frag6_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\frag6_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\frag7_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\frag7_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_arm.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_arm1_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_arm1_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_bod1_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_bod1_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_body1.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_brtf_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_brtf_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_brth_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_brth_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_brtp_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_brtp_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_brtz_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_brtz_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_Brute.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_cow2_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_cow2_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_cowb_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_cowb_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_cowf_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_cowf_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_cowh_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_cowh_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_cowl_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_cowl_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_cowt_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_cowt_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_f2h.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_f2h_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_f2h_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\G_GAS1.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\G_GAS2.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_gas2_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_gas2_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_gasa_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_gasa_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_gash_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_gash_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_gasp_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_gasp_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_gasz_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_gasz_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_gut1_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_gut1_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_kral0.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_kral1.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_krlf_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_krlf_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_krlh_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_krlh_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_krlp_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_krlp_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_krlw_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_krlw_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_krlz_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_krlz_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_leg.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_leg1_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_leg1_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_m1h.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_m1h_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_m1h_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\G_MANTA1.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\G_MANTA2.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\G_MERC1.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\G_MERC2.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_merca_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_merca_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_mercf_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_mercf_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_mercg_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_mercg_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_merch_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_merch_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_mercl_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_mercl_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_mercp_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_mercp_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_mta2_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_mta2_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_mtah_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_mtah_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_mtap_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_mtap_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_mtat_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_mtat_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_mtaw_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_mtaw_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_nal2_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_nal2_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_nalb_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_nalb_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_nalf_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_nalf_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_nalh_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_nalh_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\G_NALI1.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\G_NALI2.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_nall_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_nall_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_nalz_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_nalz_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_parts.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_pleg_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_pleg_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_pup2_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_pup2_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_pup3_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_pup3_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\G_PUPAE.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_pupb_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_pupb_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_puph_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_puph_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_pupl_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_pupl_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_shah_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_shah_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_shap_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_shap_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\G_SHARK.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_shat_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_shat_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_skrb_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_skrb_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_skrh_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_skrh_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_skrl_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_skrl_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_skrt_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_skrt_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_skrz_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_skrz_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_slia_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_slia_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_slib_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_slib_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_slih_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_slih_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_slit_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_slit_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\G_SLITH1.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\G_SLITH2.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_sliz_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_sliz_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_sqd2_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_sqd2_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_sqd3_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_sqd3_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_sqd4_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_sqd4_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_sqd5_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_sqd5_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_sqdb_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_sqdb_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_sqdh_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_sqdh_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_sqdt_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_sqdt_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\G_SQUID.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_stm_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_stm_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_tentb_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_tentb_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_tenth_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_tenth_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_tentp_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_tentp_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_tentt_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_tentt_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\G_TNTCL1.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\G_WAR1.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\G_WAR2.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_wara_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_wara_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_warf_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_warf_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_warg_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_warg_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_warh_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_warh_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_warl_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_warl_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_warw_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_warw_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_warz_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\g_warz_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\GAS_A.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\gasarm.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\gasbod.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\GB_A00.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\GB_A01.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\GB_A02.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\GB_A03.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\GB_A04.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\GB_A05.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\gina.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\glas10_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\glas10_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\glas11_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\glas11_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\glass1_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\glass1_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\glass2_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\glass2_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\glass3_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\glass3_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\glass4_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\glass4_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\glass5_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\glass5_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\glass6_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\glass6_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\glass7_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\glass7_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\glass8_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\glass8_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\glass9_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\glass9_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\GOLD.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\hand_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\hand_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\HEALTH.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\heartg_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\heartg_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\HML_1.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\HML_2.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\HML_3.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\HML_4.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\HML_5.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\HML_6.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\HML_7.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\IBOLT_A.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\IBOLT_D.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\inoxx_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\inoxx_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\INV.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\invis.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\invis_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\invis_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\KBOLT_A.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\KBOLT_D.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\kevlar.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\kevlar_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\kevlar_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\knife_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\knife_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\krall.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\krall_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\krall_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\kurgan.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\LAMP1.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\lamp1_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\lamp1_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\LAMP4.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\lamp4_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\lamp4_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\lantr2_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\lantr2_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\lantrn_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\lantrn_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\LNTR.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\M1Dead_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\M2Dead_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\M3Dead_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\male_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\Male1_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\male1gib.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\Male2_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\MALE2_D.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\MALE2A.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\MALE2B.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\male2gib.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\Male3_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\MALE3_D.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\MALE3A.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\male3gib.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\manta.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\manta_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\manta_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\mantac.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\merc_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\merc_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\merc2.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\MERCENAR.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\minib_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\minib_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\minipi_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\minipi_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\MISC.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\misc2.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\MONK.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\monk_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\monk_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\moon.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\moon_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\moon_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\moon2.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\moon3.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\NALI.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\nali_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\nali_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\nali_x.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\NALI2.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\NALICOW2.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\nalip.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\NALIPL.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\nalipl_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\nalipl_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\napal3_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\napal3_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\napick_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\napick_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\NC_1.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\NC_2.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ngel_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ngel_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\nroo.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\nroo_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\NROO_D.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\NSTATUE.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\oilbar_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\oilbar_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\OILBAREL.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\peace_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\peace_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\PEACEG.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\PEACEH.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\peacpi_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\perock_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\perock_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\pexpl_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\pexpl_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\phand_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\phand_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\PICKUP.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\pickup2.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\pis3rd_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\pis3rd_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\pislow_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\pislow_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\pistol.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\Pistol_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\pistol_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\PLANT1.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\plant1_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\plant1_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\PLANT2.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\plant2_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\plant2_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\PLANT3.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\plant3_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\plant3_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\plant4_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\plant4_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\plant5_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\plant5_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\plant6_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\plant6_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\plant7_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\plant7_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\PLNT1.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\PLNT2M.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\POT0.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\pot0_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\pot0_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\POT1.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\pot1_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\pot1_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\pot2.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\pot2_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\pot2_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\PROA1.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\PROA2.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\PROA3.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\PROA4.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\PROA5.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\PROA6.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\PROA7.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\PROA8.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\pshell_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\pshell_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\puff_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\puff_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\PUPAE.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\pupae_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\pupae_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\QUADHAND.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\queen.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\QUEEN_A.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\queen_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\rabox_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\rabox_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\RAPICK_A.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\rapick_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\RAZOR.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\razor_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\razor_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\razor3_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\razor3_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\razorb_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\razorb_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\rflare.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\RIFLE.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\RIFLE_A.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\RIFLE_D.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\rifle3_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\rifle3_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\rifleb.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\rifleb_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\rifleb_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\rifles.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\rifles_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\rifles_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ring_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ring_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\RINGEX_A.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\RINGEX_D.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\RIPICK_A.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\RIPICK_D.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ROBOT.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\robot_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\robot_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ROCK.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\rock_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\rock_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ROCKET.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\rocket_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\rocket_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\rocketcn.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SCONCE.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SCONCE_A.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SCONCE_D.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\scuba.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\scuba_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\scuba_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\seaw_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\seaw_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SEAWEED.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\seed.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\seed_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\seed_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\sentry_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\sentry_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\shark.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\sheal_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\sheal_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\shealth.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\shelbx_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\shelbx_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SHELL_A.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SHELL_D.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\shells.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\shield_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\shield_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ship.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ship_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ship_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\sign1.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\sign1_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\sign1_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SILVER.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\skaarj.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SKAARJ_A.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\skaarj_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SKAR1.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SKAR2.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SKAR3.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SKAR4.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\Skj_a02.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SKR1.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SKR2.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SL101.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SL102.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SL103.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SL104.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SL105.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SL106.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SL107.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SL108.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SL109.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SL110.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SL111.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SL112.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SL113.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SL114.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SL115.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SL116.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\slith.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\slith_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\slith_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\slith_f.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\slith_n.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\sludge_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\sludge_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SMINI.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\smini_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\smini_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\smini3_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\smini3_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\smoke1_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\smoke1_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\smoke2_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\smoke2_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\sonya.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\sp43.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\spark.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\spark_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\spark_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\spark2_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\spark2_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\spark3_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\spark3_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\sparkef.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\spawn.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\spawn_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\spawn_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SPIKEGUN.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\splash.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\splash_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\splash_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\spot_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\spot_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\SQUID.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\squid_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\squid_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\srocket.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\srocket_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\srocket_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\star.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\statue_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\statue_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\STEELB.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\steelb_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\steelb_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\STEELBOX.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\steelbt.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\sting3.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\sting3_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\sting3_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\stitan.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\suit_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\suit_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\table.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\table_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\table_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\TAP_A.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\TAP_D.3D">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\TAP1.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tazlo_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tazlo_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tburst_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tburst_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tele_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tele_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\telee_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\telee_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\telemo_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\telemo_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\telepo_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\telepo_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tentacle.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tentcl_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tentcl_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tex_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tex_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\TITAN.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\titan_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\titand.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tproj_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tproj_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tracer_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tracer_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tran.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tran_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tran_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tranhud3.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree1.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree1_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree1_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree2.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree2_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree2_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree3.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree3_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree3_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree4.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree4_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree4_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\TREE11.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree11_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree11_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\TREE12.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree12_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree12_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\TREE13.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree13_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree13_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\TREE14.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree14_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree14_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\TREE15.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree15_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree15_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\TREE16.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree16_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree16_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\TREE17.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree17_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree17_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\TREE18.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree18_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tree18_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\tsmk.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\URN.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\urn_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\urn_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\VASE.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\vase_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\vase_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\voice_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\voice_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wafr1_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wafr1_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wafr2_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wafr2_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wafr4_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wafr4_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wafr5_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wafr5_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wafr6_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wafr6_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wafr7_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wafr7_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wafr8_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wafr8_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wafr9_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wafr9_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wafr10_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wafr10_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wafr11_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wafr11_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\warlor_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\warlor_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\WARLORD.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wfrag1_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wfrag1_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wfrag2_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wfrag2_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wfrag3_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wfrag3_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wfrag4_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wfrag4_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wfrag5_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wfrag5_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wfrag6_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wfrag6_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wfrag7_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wfrag7_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wfrag8_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wfrag8_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wfrag9_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wfrag9_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\WIRE.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wire_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\wire_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\zaarj.pcx">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\zaarj_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\zaarj_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ZAARJ2.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\ZAARJ3.PCX">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\8ball3_a.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="Models\8ball3_d.3d">
+      <Filter>Models</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\BloodyPuff.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\cflame.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\CHECK.PCX">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\DEBurst.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\DispExpl.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\DOT.PCX">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\DProj.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\DProj1.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\DProj2.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\DProj3.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\DProj4.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\DRBurst.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\DTExpl.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\EX.PCX">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\EXPAL2.PCX">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\EXPAL2A.PCX">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\expal4.pcx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\expal5.pcx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\expal6.pcx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\EXPGREEN.PCX">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\EXPPAL.PCX">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\EXPRED.PCX">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\EXPYELLO.PCX">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect1.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect2.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect3.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect5.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect6.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect7.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect8.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect9.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect10.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect11.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect12.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect13.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect14.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect15.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect16.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect17.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect18.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect19.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect20.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect22.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect25.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect26.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect27.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect28.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect50.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect51.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect54.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect55.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect56.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect57.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FireEffect60.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\fireeffectASMD.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FlameEffect.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\FlameExp.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\HAL2FONT.PCX">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\hud1.pcx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\hud2.pcx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\hud3.pcx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\hud4.pcx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\hud5.pcx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\hud6.pcx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\lg2font.pcx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\logo.pcx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\LRGRED.PCX">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\maine.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\medfont2.pcx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\MenuGr.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Message.PCX">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\ParticleEffect1.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\rifleflr.pcx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\SiteLite.PCX">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\skaarjp.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\SLIDE1.PCX">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\SLIDE2.PCX">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\SLIDE3.PCX">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\SLIDE4.PCX">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\SmokeBlack.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\SmokeCol.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\SmokeEffect1.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\SmokeEffect2.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\SmokeEffect3.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\SmokeGray.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\SmokeGreen.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\SPWNAI.PCX">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\STrooper.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\STShield.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\TINYFON2.PCX">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\TINYFON3.PCX">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\tinyfont.pcx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\WaterEffect1.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Blood.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Bloodeffect1.utx">
+      <Filter>Textures</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\CHAIR5.PCX">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\CHAIR6.PCX">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\CHAIR7.PCX">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\charge.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\greenammo.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\halfhud.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\health.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\hud.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_amp.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_armor.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_asmd.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_belt.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_bigf.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_blank.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_boots.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_clip.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_damp.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_disp.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_flak.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_flare.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_flash.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_force.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_health.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_invis.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_kevlar.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_razor.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\I_RCan.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_rifle.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_rim.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_scuba.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_seed.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_shell.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_skull.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_skullb.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_skullg.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_skullr.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_skully.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_sludge.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_sting.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_suit.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_tran.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\i_voice.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\line.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\redammo.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\yellowammo.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\ammo.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\armor.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\chair1.pcx">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\CHAIR2.PCX">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\CHAIR3.PCX">
+      <Filter>Textures\Hud</Filter>
+    </None>
+    <None Include="..\..\..\UnrealGold\UnrealI\Textures\Hud\CHAIR4.PCX">
+      <Filter>Textures\Hud</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Sounds\Warlord\injur1W.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Titan\injur2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Warlord\injur2W.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Warlord\laugh3b.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Titan\punch1Tt.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Titan\roam1Ti.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Warlord\roam1W.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Titan\rockhit1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Titan\slaphit1Ti.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Titan\sniff1Ti.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Titan\step1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Titan\stomp4a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Titan\Swing1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Titan\throw1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Titan\yell1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Titan\yell2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Titan\yell3a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Titan\amb1Ti.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Tazer\ASMDex3.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Titan\chestB2Ti.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Titan\death1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Tentacle\death2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Titan\fall1Ti.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Titan\injur1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Tentacle\injured1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Tentacle\injured2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Tentacle\mebax.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Tentacle\splat2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Tentacle\strike2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Tentacle\TenImp2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Tentacle\TenSht1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Tazer\Tpickup3.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Tazer\tshota6.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Tazer\TshotB1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Tazer\vapour1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Tentacle\waver1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Tentacle\yell1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Tentacle\yell2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Squid\amb1sq.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Squid\death1sq.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Stinger\endS1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Squid\grab1sq.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Squid\hit1sq.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Squid\hold1sq.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Squid\injur1sq.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Slith\injur2sl.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Squid\injur2sq.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Stinger\load1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Stinger\Ricochet.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Slith\roam1sl.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Stinger\SaltF1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Slith\scratch1sl.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Squid\slap1sq.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Slith\SliImp2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Slith\SliSpt1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Slith\slithr1sl.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Stinger\Sshot10d.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Stinger\sshot20d.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Slith\surf1sl.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Slith\swim1sl.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Squid\thrust1sq.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Squid\turn1sq.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Slith\yell1sl.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Slith\yell2sl.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Slith\yell3sl.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Slith\yell4sl.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Slith\amb1sl.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\SkaarjPlayer\death01.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\SkaarjPlayer\death02.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\SkaarjPlayer\death03.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Slith\dieL1sl.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Slith\dieW1sl.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Slith\dive2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\SkaarjPlayer\drown01.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\SkaarjPlayer\fstep01.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\SkaarjPlayer\fstep02.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\SkaarjPlayer\gasp01.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\SkaarjPlayer\injur01.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Slith\injur1sl.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\SkaarjPlayer\injur02.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\SkaarjPlayer\injur03.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\SkaarjPlayer\injur04.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\SkaarjPlayer\jump01.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\SkaarjPlayer\land01.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Skaarj\spin1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Skaarj\squat1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Skaarj\syl07.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Skaarj\syl09.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Skaarj\syl11.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Skaarj\syl12.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Skaarj\syl13.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Skaarj\syl15.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Skaarj\amb1sk.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Skaarj\blade1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Razorfly\buzz3rf.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Skaarj\chalnge1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Skaarj\chalnge3a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Skaarj\claw2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Skaarj\clawhit1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Skaarj\death1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Razorfly\death1rf.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Skaarj\death2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Skaarj\hairflp2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Razorfly\injur1rf.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Razorfly\injur2rf.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Skaarj\injur5.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Skaarj\injur6.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Skaarj\injur7.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Skaarj\lunge1sk.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Rifle\reload1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Skaarj\roam11.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Rifle\Rpickup1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Rifle\Rshot9.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Skaarj\SkaImp3.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Skaarj\SkaSht2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Queen\amb1Q.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Razor\beam.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Razor\bladehit.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Razor\bladethunk.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Queen\claw1Q.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Razor\fly15.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Queen\nearby2Q.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Queen\outcoldQ.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Queen\shoot1Q.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Queen\stab1Q.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Razor\start9b.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Queen\yell1Q.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Queen\yell2Q.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Queen\yell3Q.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pupae\bite1pp.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pupae\death1b.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pupae\hiss1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pupae\hiss2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pupae\hiss3.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pupae\injur1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pupae\injur2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pupae\munch1pp.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\respawn1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pupae\roam1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\sbeltA1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\sbeltHE2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\scloak1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\scubaDA1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\scubaL1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\scubaL2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pupae\scuttle1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\suit1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pupae\tear1b.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pupae\thump1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\transA3.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\voiceb1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\ammopup1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\amp3a1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\ampL1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\armour2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\bootjmp.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\bootsA1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\dampnDea.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\dampner1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\ffieldA3.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\ffieldH2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\ffieldL2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\flareL1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\flareS1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\fshlite1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\fshlite2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\genpick3.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\genwep1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\health1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\health2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\naliseed.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Pickups\psbeltA2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Nali\thump1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Nali\backup2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Nali\bowing1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Nali\breath2na.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Nali\contct1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Nali\contct3a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Nali\cough1na.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Nali\cringe2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Nali\death1na.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Nali\death2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Nali\fear1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Nali\follow1c.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Nali\injur1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Nali\injur2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Nali\levitF1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Nali\sweat1na.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Nali\syl1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Nali\syl2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Nali\syl3.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Nali\syl4.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Nali\syl5.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Nali\syl6.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Minigun\windD2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Minigun\AltF1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Mercenary\chlng2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Mercenary\chlng3a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Mercenary\death1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Mercenary\death2b.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Mercenary\death3b.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Mercenary\flip1mr.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Mercenary\hit1mr.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Minigun\imp01.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Minigun\imp02.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Minigun\imp03.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Mercenary\injur2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Mercenary\injur3a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Mercenary\land1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Mercenary\merspr4a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Minigun\Mpickup2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Mercenary\nearbymr.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Minigun\RegF1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Mercenary\swat1mr.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Mercenary\syl01.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Mercenary\syl02.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Mercenary\syl03.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Mercenary\syl04.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Mercenary\syl05.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Mercenary\syl11.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Mercenary\thump1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Mercenary\walk2mr.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Mercenary\weapon1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Mercenary\amb1mr.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Manta\call1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Manta\call2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Manta\death2c.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Manta\dslap2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Manta\fly1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Manta\injur1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Manta\injur2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Male\injurL2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Male\injurL04.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Male\injurM04.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Male\jump1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Male\jump10.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Male\jump11.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Manta\land1mt.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Male\land10.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Male\land12.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Male\lland01.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Male\metal01.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Male\metal02.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Male\metal03.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Menu\select4.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Menu\side1b.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Manta\sting1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Menu\updown3.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Male\UWinjur41.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Male\UWinjur42.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Manta\whip1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Male\deathc1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Male\deathc3.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Male\deathc4.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Male\drownM02.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Male\gasp02.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Male\hgasp1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Krall\injur1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Krall\injur2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Male\injurH1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Male\injurH5.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Krall\KraSht2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Krall\snore1kr.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Krall\staflp4kr.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Krall\strike1kr.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Krall\syl13kr.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Krall\syl14kr.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Krall\syl15kr.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Krall\syl16kr.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Krall\syl17kr.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Krall\syl18kr.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Krall\throw1kr.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Krall\amb1kr.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Gibs\biggib1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Gibs\biggib2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Gibs\biggib3.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Gibs\bthump1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Krall\chlng1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Krall\chlng2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Krall\death1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Krall\death2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Gibs\gib1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Gibs\gib3.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Gibs\gibP1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Gibs\gibP3.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Gibs\gibP4.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Gibs\gibP5.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Gibs\gibP6.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Krall\hit2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Generic\uLava1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Generic\uLNitro1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Generic\uWater1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Generic\wtrexit1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Generic\dsplash.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\General\glass.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Generic\GoopE1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Generic\GoopJ1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Generic\land1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Generic\lsplash.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\General\steam4.WAV">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Generic\teleport1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Generic\teleprt27.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Generic\teleprt28.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\General\Thundr2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\General\TINK1.WAV">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\General\TINK2.WAV">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Generic\uGoop1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\General\WOODHIT1.WAV">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\General\WOODHIT2.WAV">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\General\8blfly2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\General\arrowspawn.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\General\BPush1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\General\BruFly1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\General\bulletR2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\General\CHUNKHIT1.WAV">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\General\CHUNKHIT2.WAV">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\General\drip.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\General\Endpush.WAV">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\General\Expl02.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\General\Expl03.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\General\Expl04.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\General\Expl05.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\General\ExplA02.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\General\ExplE01.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\General\ExplE03.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\General\ExplG02.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\General\explo4a.WAV">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Gassius\2punch1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Gassius\amb2gb.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Flak\Barrelm1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Flies\buzz3.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Flak\chunkhit.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Flak\click.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Gassius\death1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Flak\Expl2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Flak\explode1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Flak\flachit1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Flak\flachit3.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Flak\flachit5.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Flak\Hidraul2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Gassius\hit1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Gassius\injur1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Gassius\injur2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Flak\load1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Gassius\nearby1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Flak\pdown.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Flak\shot1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Flak\shot2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Gassius\yell2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Gassius\yell3a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Female\convulse.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Female\death1d.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Female\death2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Female\death3c.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Female\death4c.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Female\hgasp3.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Female\hinjur3.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Female\hinjur4.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Female\jump1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Female\lgasp1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Female\linjur2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Female\linjur3.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Female\linjur4.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Female\lland1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Female\mdrown2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Female\mtwalk1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Female\stone02.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Female\stone04.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Female\stone05.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Female\UWhit01.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Female\wdwalk1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Eightbal\8altF1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Dispersion\altfire.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Eightbal\Barrelm1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Dispersion\Dfly1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Dispersion\DPexplo4.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Dispersion\Dpickup2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Dispersion\dshot1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Eightbal\Eload1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Dispersion\end1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\DevilFish\flop1fs.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Eightbal\grenflor.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Eightbal\ignite.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Eightbal\Lock1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Dispersion\loop1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\DevilFish\miss1fs.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Dispersion\number1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Dispersion\number2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Dispersion\number3.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Dispersion\number4.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Dispersion\Powerup3.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Eightbal\SeekLost.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Eightbal\Select.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Dispersion\start1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\DevilFish\tear1fs.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Cow\ambCa.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\DevilFish\ambfs.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\DevilFish\breath1fs.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Bunny\call1bn.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\DevilFish\chomp1fs.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Cow\cMoo1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Cow\cMoo2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\DevilFish\cmphitfs.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\DevilFish\death1fs.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Cow\DeathC1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Cow\DeathC2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Cow\injurC1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Cow\injurC2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Cow\shakenc.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Cow\swishnc.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Cow\thump1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Cannon\TurDrop1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Cannon\turexpl.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Cannon\TurShot1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Brute\walk1b.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Cow\walknc.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Brute\yell1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Brute\yell2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Brute\amb1br.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Bird\call2bd.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Automag\cocking.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Brute\death1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Blob\death1Bl.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Brute\death2br.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\BRifle\drip1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\BRifle\gelhit1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Blob\goop2Bl.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Blob\goop3Bl.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Blob\goop4Bl.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Blob\hit1Bl.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Brute\injur1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Blob\injur1Bl.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Brute\injur2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\BRifle\load4.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Brute\nearby2a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\BRifle\Npickup2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\BRifle\Nshot1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Brute\pstlhit1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Brute\pwhip1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Automag\reload1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Automag\shell2.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Automag\shot.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Brute\walk1a.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Warlord\threat1W.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Warlord\aquire1W.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Warlord\breath1.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Warlord\Dcry1W.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+    <Media Include="Sounds\Warlord\fly1W.wav">
+      <Filter>Sounds</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Res\LaunchRes.h">
+      <Filter>Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\LaunchPrivate.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Src\Res\LaunchRes.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Launch.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

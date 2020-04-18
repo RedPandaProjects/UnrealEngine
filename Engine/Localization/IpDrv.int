@@ -1,0 +1,17 @@
+[Public]
+Object=(Name=IpDrv.TcpNetDriver,Class=Class,MetaClass=Engine.NetDriver)
+Object=(Name=IpDrv.UdpBeacon,Class=Class,MetaClass=Engine.Actor)
+Object=(Name=IpDrv.ServerUplink,Class=Class,MetaClass=Engine.Actor)
+Preferences=(Caption="Networking",Parent="Advanced Options")
+Preferences=(Caption="TCP/IP Network Play",Parent="Networking",Class=IpDrv.TcpNetDriver)
+Preferences=(Caption="Server Beacon",Parent="Networking",Class=IpDrv.UdpBeacon,Immediate=True)
+Preferences=(Caption="Master Server Uplink",Parent="Networking",Class=IpDrv.ServerUplink,Immediate=True)
+
+[TcpNetDriver]
+ClassCaption="TCP/IP Network Play"
+
+[UdpBeacon]
+ClassCaption="Master Server Uplink"
+
+[ServerUplink]
+ClassCaption="Server LAN Beacon"

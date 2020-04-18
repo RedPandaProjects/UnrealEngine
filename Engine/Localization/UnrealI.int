@@ -1,0 +1,27 @@
+[Public]
+Object=(Name=UnrealI.DeathmatchGame,Class=Class,MetaClass=UnrealGameInfo)
+Object=(Name=UnrealI.DarkMatch,Class=Class,MetaClass=UnrealGameInfo)
+Object=(Name=UnrealI.KingOfTheHill,Class=Class,MetaClass=UnrealGameInfo)
+Object=(Name=UnrealI.TeamGame,Class=Class,MetaClass=UnrealGameInfo)
+Object=(Name=UnrealI.CoopGame,Class=Class,MetaClass=UnrealGameInfo)
+Preferences=(Caption="Game Types",Parent="Advanced Options")
+Preferences=(Caption="Coop Play",Parent="Game Types",Class=UnrealI.CoopGame)
+Preferences=(Caption="Dark Match",Parent="Game Types",Class=UnrealI.DarkMatch)
+Preferences=(Caption="Deathmatch",Parent="Game Types",Class=UnrealI.DeathmatchGame)
+Preferences=(Caption="King Of The Hill",Parent="Game Types",Class=UnrealI.KingOfTheHill)
+Preferences=(Caption="Team Play",Parent="Game Types",Class=UnrealI.TeamGame)
+
+[DeathmatchGame]
+ClassCaption="Deathmatch"
+
+[DarkMatch]
+ClassCaption"Dark Match"
+
+[KingOfTheHill]
+ClassCaption="King Of The Hill"
+
+[TeamGame]
+ClassCaption="Team Play"
+
+[CoopGame]
+ClassCaption="Cooperative Play"

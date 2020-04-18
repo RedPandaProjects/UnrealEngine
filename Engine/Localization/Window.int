@@ -1,0 +1,19 @@
+[Errors]
+Critical=Critical Error
+FailedConfigLoad=%s (failed load)
+
+[General]
+BrowseButton=...
+UseButton=Use
+ClearButton=Clear
+DefaultsButton=Reset To Defaults
+LogWindow=%s Log Window
+PropNone=Nothing Selected
+PropSingle=%s Properties
+PropMulti=%s Properties (%i selected)
+
+[FirstRun]
+Caption=Initial Configuration
+LowMemory=Unreal has detected that you have %i megabytes of memory available. To improve performance, the "Low Detail Textures" and "Low Sound Quality" options have been enabled.  You may change this settings in the "Performance Settings" menu.
+NonMMX=Unreal has detected that you're using a non-MMX PC. Based on this, the sound playback rate has been set to use the least CPU power. You may change this settings in the "Advanced Options / Audio" menu.
+Starting=Unreal is starting up for the first time. If you experience any problems, please read the Troubleshooting section of the Release Notes in the "Start" menu.

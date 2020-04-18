@@ -1,0 +1,174 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "WinDrvRes.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "WinDrvRes.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_PLAYERCAM MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_FILE_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Advanced Options...",        ID_PROPERTIES_PROPERTIES2
+        MENUITEM "Show &Log",                   ID_SHOWLOG
+        MENUITEM "&Always on top",              ID_WIN_TOP
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&16-bit color",               ID_COLOR_16BIT
+        MENUITEM "&32-bit color",               ID_COLOR_32BIT
+        MENUITEM SEPARATOR
+        MENUITEM "&320x200",                    ID_WIN_320
+        MENUITEM "&400x300",                    ID_WIN_400
+        MENUITEM "&512x384",                    ID_WIN_512
+        MENUITEM "&640x400",                    ID_WIN_640
+        MENUITEM "640x4&80",                    ID_WIN_640_480
+        MENUITEM "&800x600",                    ID_WIN_800
+    END
+END
+
+IDR_EDITORCAM MENU DISCARDABLE 
+BEGIN
+    POPUP "&Mode"
+    BEGIN
+        MENUITEM "&Dynamic Lighting",           ID_MAP_DYNLIGHT, CHECKED
+        MENUITEM "&Textures",                   ID_MAP_PLAINTEX
+        MENUITEM "&Polygons",                   ID_MAP_POLYS
+        MENUITEM "&Zone/Portal View",           ID_MAP_ZONES
+        MENUITEM "&BSP Cuts",                   ID_MAP_POLYCUTS
+        MENUITEM SEPARATOR
+        MENUITEM "&Map Overhead",               ID_MAP_OVERHEAD
+        MENUITEM "Map &XZ",                     ID_MAP_XZ
+        MENUITEM "Map &YZ",                     ID_MAP_YZ
+        MENUITEM "&Map Persp",                  ID_MAP_WIRE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Always on top",              ID_WIN_TOP
+        MENUITEM SEPARATOR
+        MENUITEM "Show Active &Brush",          ID_SHOW_BRUSH, CHECKED
+        MENUITEM "Show &Moving Brushes",        ID_SHOW_MOVINGBRUSHES
+        , CHECKED
+        MENUITEM "Show Bac&kdrop",              ID_SHOW_BACKDROP
+        MENUITEM "Show &Coordinates",           ID_SHOW_COORDS
+        MENUITEM "Show Paths",                  ID_SHOW_PATHS
+    END
+    POPUP "&Actors"
+    BEGIN
+        MENUITEM "&Full Actor View",            ID_ACTORS_SHOW
+        MENUITEM "&Icon View",                  ID_ACTORS_ICONS
+        MENUITEM "&Radii View",                 ID_ACTORS_RADII
+        MENUITEM "&Hide Actors",                ID_ACTORS_HIDE
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&16-bit color",               ID_COLOR_16BIT2
+        MENUITEM "&32-bit color",               ID_COLOR_32BIT2
+        MENUITEM SEPARATOR
+        MENUITEM "&320x200",                    ID_WIN_320
+        MENUITEM "&400x300",                    ID_WIN_400
+        MENUITEM "&512x384",                    ID_WIN_512
+        MENUITEM "&640x400",                    ID_WIN_640
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDICON_MAINFRAME        ICON    DISCARDABLE     "..\\res\\Unreal.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDCURSOR_TexSet         CURSOR  DISCARDABLE     "..\\res\\TEXSET.CUR"
+IDCURSOR_TexScale       CURSOR  DISCARDABLE     "..\\res\\TEXSCALE.CUR"
+IDCURSOR_TexRot         CURSOR  DISCARDABLE     "..\\res\\TEXROT.CUR"
+IDCURSOR_TexPan         CURSOR  DISCARDABLE     "..\\res\\TEXPAN.CUR"
+IDCURSOR_TexGrab        CURSOR  DISCARDABLE     "..\\res\\TEXGRAB.CUR"
+IDCURSOR_Terraform      CURSOR  DISCARDABLE     "..\\res\\terrafor.cur"
+IDCURSOR_SelectPolys    CURSOR  DISCARDABLE     "..\\res\\SELECTPO.CUR"
+IDCURSOR_SelectActors   CURSOR  DISCARDABLE     "..\\res\\SELACTOR.CUR"
+IDCURSOR_MoveActor      CURSOR  DISCARDABLE     "..\\res\\MOVEACT.CUR"
+IDCURSOR_CameraZoom     CURSOR  DISCARDABLE     "..\\res\\CAMZOOM.CUR"
+IDCURSOR_BrushWarp      CURSOR  DISCARDABLE     "..\\res\\BrushWrp.cur"
+IDCURSOR_BrushStretch   CURSOR  DISCARDABLE     "..\\res\\BRUSHSTR.CUR"
+IDCURSOR_BrushSnap      CURSOR  DISCARDABLE     "..\\res\\BrushSna.cur"
+IDCURSOR_BrushSheer     CURSOR  DISCARDABLE     "..\\res\\BRUSHSHR.CUR"
+IDCURSOR_BrushScale     CURSOR  DISCARDABLE     "..\\res\\BRUSHSCA.CUR"
+IDCURSOR_BrushRot       CURSOR  DISCARDABLE     "..\\res\\BRUSHROT.CUR"
+IDCURSOR_BrushMove      CURSOR  DISCARDABLE     "..\\res\\BRUSHMOV.CUR"
+IDCURSOR_BrushFree      CURSOR  DISCARDABLE     "..\\res\\BRUSHFR.CUR"
+IDCURSOR_AddActor       CURSOR  DISCARDABLE     "..\\res\\ADDACTOR.CUR"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
